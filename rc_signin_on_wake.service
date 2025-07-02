@@ -1,0 +1,11 @@
+[Unit]
+Description=Run RocketChat virtual presence script upon wake
+Requires=network-online.target
+After=suspend.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/alinea/scripts/rc_virtual_presence return
+
+[Install]
+WantedBy=suspend.target

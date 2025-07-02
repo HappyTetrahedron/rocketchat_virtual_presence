@@ -1,0 +1,11 @@
+[Unit]
+Description=Run RocketChat virtual presence script upon login/logout
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+ExecStart=/home/alinea/scripts/rc_virtual_presence
+ExecStop=/home/alinea/scripts/rc_virtual_presence goodbye
+
+[Install]
+WantedBy=default.target
