@@ -34,6 +34,6 @@ Instead, I have updated my suspend keyboard shortcut to first run the script, th
 
 I suggest you find a way to similarly integrate this script into your way of suspending the system.
 
-If you like to use a sleep button on your laptop or similar, ... good luck!
+If you like to use a sleep button on your laptop or just shut the lid, ... good luck!
 Maybe you can catch and handle the acpi event manually?
 
